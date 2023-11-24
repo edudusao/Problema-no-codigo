@@ -4,12 +4,28 @@
     padding: 0;
 }
 
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #dfdfdf;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header li {
     display: inline;
 }
 
+header li a{
+    color: #dfdfdf;
+}
+
 .container {
-    width: auto;
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -17,6 +33,7 @@ header li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 50px;
 }
 
 .articles article img{
@@ -25,4 +42,28 @@ header li {
 
 .articles article{
     width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+
+section, #economy h2, #sports h2{
+    margin: 50px;
 }
